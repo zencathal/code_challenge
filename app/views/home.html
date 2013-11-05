@@ -1,0 +1,19 @@
+<div id="home" class="row">
+  <div class="large-6 large-offset-3">
+    <img src="images/Zendoc-logo-blue-on-white.png"/>
+    <div class="alert-box">
+      <p>The factorial of a number is computed as that number times all of the numbers below it up to and including 1. For example, factorial(5) is the same as 5*4*3*2*1, and factorial(3) is 3*2*1. Write a function that takes n as an argument and returns the factorial of n. You have five minutes to complete the task preferably in javascript or python. Please contact a ZenDoc staff member before starting. Good Luck!</p>
+    </div>
+    <div class="large-12 columns" ng-model="codeMirror">
+      <textarea ui-codemirror="editorOptions" ng-model="x"></textarea>
+      
+    </div>
+    <div class="row">
+      <div class="large-12 columns">
+        <button class="button large expand radius" data-ng-click="logOut()">
+          Finish
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+img{
+  margin-top:100px;
+}
+
+.alert-box, .button{
+  background-color: #3366cc;
+  
+}
+
+.alert-box p{
+  line-height: 150%;
+  margin: 0;
+  font-size: 110%;
+}
+
+h1 {
+  color: #3366cc;
+  text-align: center;
+
+}
